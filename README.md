@@ -3,15 +3,18 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this analysis is to assist Steve in looking into DAQO stocks for his parents which they have decided to invest all of their money into. Steve is concerned about diversifying their funds and wants to analyze a handful of green energy stocks for alternative stock choices for his parents to choose from.  He wants to find the total daily volume and yearly return for each stock. This will be unraveled by using visual basic for application (VBA) applying on stock performance data between 2017 and 2018, which analyzes the dataset for daily volume and yearly return as well as outputting the execution times of the script. The dataset is a collection of green energy stocks from 2017 and 2018 with different tickers, closing prices, volumes, and etc. The goal will be gathering 12 tickers and display their corresponding total daily volume and percent yearly return with the respective year.  Steve also would like to include stock market over the past few years, this will require to refactor the script and we will compare this to the original script on the execution time. Finding the total daily volume per ticker will give the yearly volume and a rough idea of how often it gets traded. As for the return data this will help determine if a stock is traded often, then the price will accurately reflect the value of the stock. 
 
-Conclusions will be reported based on the analyses that will be created by a table and the difference in execution times based on the original script and refactored script. All stocks (year) will be created from code inputted into VBA on stock performance dataset between 2017 and 2018. The table will represent either 2017 or 2018 with the tickers, total daily volume, and return. The overall results based on the table, DQ would not be a good stock to invest all of Steve’s parents all of their money in because in 2017 it had a return of 199.4% but in 2018 a return of -62.6% which shows poor performance.  Instead Steve should recommend his parents to diversify their investment into ENPH and RUN stocks because ENPH in 2017 had a return of 129.5% and in 2018 a return of 81.9% as for RUN in 2017 had a return of 5.5% and in 2018 a return of 84.0% which indicates a positive trend. The original script execution times for 2017 and 2018 were 0.5820 seconds and 0.5703 seconds respectively. With the refactored script execution times for 2017 and 2018 were 0.1133 seconds and 0.1133  From these results, it will help Steve give recommendations to his parents to where they should invest in particular stocks based on total daily volumes and yearly return, also the refactored script runs the VBA code quicker.
+The purpose of this analysis is to assist Steve with looking into DAQO stocks for his parents which they have decided to invest all of their money into. Steve is concerned about diversifying their funds and wants to analyze a handful of green energy stocks for alternative stock choices for his parents to choose from. He wants to find the total daily volume and yearly return for each stock. This will be unraveled by using visual basic for application (VBA) applying on stock performance data between 2017 and 2018, which analyzes the dataset for daily volume and yearly return as well as outputting the execution times of the script. The dataset is a collection of green energy stocks from 2017 and 2018 with different tickers, closing prices, volumes, etc. The goal will be gathering 12 tickers and display their corresponding total daily volume and percent yearly return with the respective year. Steve also would like to include stock market over the past few years, this will require to refactor the script and we will compare this to the original script on the execution time. Finding the total daily volume per ticker will give the yearly volume and a rough idea of how often it gets traded. As for the return data, this will help determine if a stock is traded often, then the price will accurately reflect the value of the stock.
+
+Conclusions will be reported based on the analyses that will be created by a table and the difference in execution times based on the original script and refactored script. All stocks (year) will be created from code inputted into VBA on the stock performance dataset between 2017 and 2018. The table will represent either 2017 or 2018 with the tickers, total daily volume, and return. The overall results based on the table, DQ would not be a good stock to invest all of Steve’s parents all of their money in because in 2017 it had a return of 199.4% but in 2018 a return of -62.6% which shows poor performance. Instead, Steve should recommend his parents to diversify their investment into ENPH and RUN stocks because ENPH in 2017 had a return of 129.5% and in 2018 a return of 81.9% as for RUN in 2017 had a return of 5.5% and in 2018 a return of 84.0% which indicates a positive trend. The original script execution times for 2017 and 2018 were 0.5820 seconds and 0.5703 seconds respectively. With the refactored script execution times for 2017 and 2018 were 0.1133 seconds and 0.1133 From these results, it will help Steve give recommendations to his parents to where they should invest in particular stocks based on total daily volumes and yearly return, also the refactored script runs the VBA code quicker.
 
 
 ## Results
 
 ### Analysis of Stock Performance Between 2017 and 2018
+
 #### Refactored Script for Green Stocks
+
 Below is the code used in this challenge to analyze the stock performances between 2017 and 2018. Is first change all the lines that depend on years to yearValue variable. Then to change the assigning hard-coded string literal to using the dynamic value stored in yearValue, must built the string in pieces by concatenation. Concatenation means the process of joining two or more strings together. Below is the represenation of the new line.
 
 ```
@@ -169,30 +172,40 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 ```
 #### Images of Stock Performance Between 2017 and 2018
+
 ##### 2017
+
 ![VBA_2017_Performance](Resources/VBA_2017_Performance.png)
 
 ##### 2018
+
 ![VBA_2018_Performance](Resources/VBA_2018_Performance.png)
 
-These tables were derived from the analysis done by VBA codes using stock data from 2017 and 2018. Each image represents a different year, also contains the ticker, total daily volume, and percentage yearly return. For 2017 there were more green stocks that had a higher return compared to 2018. The year 2018, a lot of the green stocks went into the negatives, but only two were still staying strong which was ENPH and RUN.
-
+These tables were derived from the analysis done by VBA codes using stock data from 2017 and 2018. Each image represents a different year, also contains the ticker, total daily volume, and percentage yearly return. For 2017 more green stocks had a higher return compared to 2018. The year 2018, a lot of the green stocks went into the negatives, but only two were still staying strong which was ENPH and RUN.
 
 
 ### Analysis of Execution Times of Original Script and Refactored Script
+
 #### The Original VBA Script for 2017 and 2018
+
 ##### 2017
+
 ![Original_ModuleVBA_2017](Resources/Original_ModuleVBA_2017.png)
+
 ##### 2018
+
 ![Original_ModuleVBA_2018](Resources/Original_ModuleVBA_2018.png)
 
 These two images of the executed times from the original original script gives a longer duration to complete the code. For year 2017 original script was 0.5820 seconds and year 2018 was 0.5703 seconds.
 
 #### The Refactored VBA Script for 2017 and 2018
+
 ##### 2017
+
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 
 ##### 2018
+
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 These two images of the executed times from the refactored script shows a shorter duration to complete the code. For year 2017 and 2018 refactored script was 0.1133 seconds.
@@ -200,9 +213,10 @@ These two images of the executed times from the refactored script shows a shorte
 
 ## Summary
 
-The advantages of refactoring code are increase efficiency, minimize steps and not as complex, utilizing less memory, easier to maintain and read, or improving     the logic of the code creates an easier experience for future users to read.  Some disadvantages of refactoring code are time consuming, increasing the             execution time on the particular code, or ending up with the wrong results from the refactored code.
+The advantages of refactoring code are increasing efficiency, streamlining steps, compacting memory, and improving the logic of the code; creating an easier experience for future users to read. Some disadvantages of refactoring code are time-consuming, increasing the execution time on the particular code, or ending up with the wrong results from the refactored code.
 
-The advantages of the original VBA script is that it represents purpose and main idea of the code and there are several ways to approach as its the original code. the disadvantage of original script is there so many approaches, not sure which way would execute quicker and using a lot of memory, and may confuse the future readers. The advantages of refactored VBA script follows with the advantages and disadvantages of refactoring code mentioned in the paragraph above. The advantage of being less complex, using less memory, and increase efficiency. But disadvantages of refactored VBA script, it is time consuiming as there are several ways to approach the code.
+The advantages of the original VBA script are that it represents purpose and main idea of the code and there are several ways to approach as its the original code. the disadvantage of the original script is there so many approaches, not sure which way would execute quicker and using a lot of memory, and may confuse the future readers. The advantages of the refactored VBA script are similar to the aforementioned refactoring code: less complex, less memory usage, and efficiency increase. Disadvantages of refactored VBA script, it is time-consuming as there are several ways to approach the code.
+
 
 
 
