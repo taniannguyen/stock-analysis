@@ -169,9 +169,10 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 ```
 #### Images of Stock Performance Between 2017 and 2018
-
+##### 2017
 ![VBA_2017_Performance](Resources/VBA_2017_Performance.png)
 
+##### 2018
 ![VBA_2018_Performance](Resources/VBA_2018_Performance.png)
 
 These tables were derived from the analysis done by VBA codes using stock data from 2017 and 2018. Each image represents a different year, also contains the ticker, total daily volume, and percentage yearly return. For 2017 there were more green stocks that had a higher return compared to 2018. The year 2018, a lot of the green stocks went into the negatives, but only two were still staying strong which was ENPH and RUN.
