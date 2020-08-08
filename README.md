@@ -173,7 +173,7 @@ End Sub
 
 
 ### Analysis of Execution Times of Original Script and Refactored Script
-The original VBA script for 2017 and 2018
+#### The original VBA script for 2017 and 2018
 
 ![Original_ModuleVBA_2017](Resources/Original_ModuleVBA_2017.png)
 
@@ -181,7 +181,7 @@ The original VBA script for 2017 and 2018
 
 These two images of the executed times from the original original script gives a longer duration to complete the code. For year 2017 original script was 0.5820 seconds and year 2018 was 0.5703 seconds.
 
-The refactored VBA script for 2017 and 2018
+#### The refactored VBA script for 2017 and 2018
 
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 
