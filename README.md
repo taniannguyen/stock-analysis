@@ -18,7 +18,7 @@ Conclusions will be reported based on the analyses that will be created by a tab
 ### Analysis of Execution Times of Original Script and Refactored Script
 
 
-
+![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
 
 
 ## Summary
