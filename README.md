@@ -19,9 +19,6 @@ Conclusions will be reported based on the analyses that will be created by a tab
 
 
 
-![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
-
-![VBA_Challenge_2018](resources/VBA_Challenge_2018.png)
 
 
 ## Summary
