@@ -11,7 +11,7 @@ Conclusions will be reported based on the analyses that will be created by a tab
 ## Results
 
 ### Analysis of Stock Performance Between 2017 and 2018
-
+#### Refactored Script for Green Stocks
 Below is the code used in this challenge to analyze the stock performances between 2017 and 2018. Is first change all the lines that depend on years to yearValue variable. Then to change the assigning hard-coded string literal to using the dynamic value stored in yearValue, must built the string in pieces by concatenation. Concatenation means the process of joining two or more strings together. Below is the represenation of the new line.
 
 ```
@@ -168,24 +168,30 @@ Sub AllStocksAnalysisRefactored()
 
 End Sub
 ```
+#### Images of Stock Performance Between 2017 and 2018
 
+![VBA_2017_Performance](Resources/VBA_2017_Performance.png)
+
+![VBA_2018_Performance](Resources/VBA_2018_Performance.png)
+
+These tables were derived from the analysis done by VBA codes using stock data from 2017 and 2018. Each image represents a different year, also contains the ticker, total daily volume, and percentage yearly return. For 2017 there were more green stocks that had a higher return compared to 2018. The year 2018, a lot of the green stocks went into the negatives, but only two were still staying strong which was ENPH and RUN.
 
 
 
 ### Analysis of Execution Times of Original Script and Refactored Script
-#### The original VBA script for 2017 and 2018
-
+#### The Original VBA Script for 2017 and 2018
+##### 2017
 ![Original_ModuleVBA_2017](Resources/Original_ModuleVBA_2017.png)
-
+##### 2018
 ![Original_ModuleVBA_2018](Resources/Original_ModuleVBA_2018.png)
 
 These two images of the executed times from the original original script gives a longer duration to complete the code. For year 2017 original script was 0.5820 seconds and year 2018 was 0.5703 seconds.
 
-#### The refactored VBA script for 2017 and 2018
-
+#### The Refactored VBA Script for 2017 and 2018
+##### 2017
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 
-
+##### 2018
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 These two images of the executed times from the refactored script shows a shorter duration to complete the code. For year 2017 and 2018 refactored script was 0.1133 seconds.
