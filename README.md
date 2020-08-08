@@ -199,10 +199,10 @@ These two images of the executed times from the refactored script shows a shorte
 
 
 ## Summary
-- What are the advantages or disadvantages of refactoring code?
-  - The advantages of refactoring code are increase efficiency, minimize steps and not as complex, utilizing less memory, easier to maintain and read, or improving     the logic of the code creates an easier experience for future users to read.  Some disadvantages of refactoring code are time consuming, increasing the             execution time on the particular code, or ending up with the wrong results from the refactored code.
-- How do these pros and cons apply to refactoring the original VBA script?
-	- These points apply to refactoring the original VBA script in a positive aspect because it runs quicker, minimizes steps, increases efficiency, and returns a         larger set of data for the results as requested. The refactored gives opportunities to cover more data and helps support the results that is discovered from the     analysis. The negative aspect based from the pros and cons from refactoring the original VBA script is confusion may arise, time consuming, a lot of trial and       error, or not being able to return the result that the original VBA script asks for.
+
+The advantages of refactoring code are increase efficiency, minimize steps and not as complex, utilizing less memory, easier to maintain and read, or improving     the logic of the code creates an easier experience for future users to read.  Some disadvantages of refactoring code are time consuming, increasing the             execution time on the particular code, or ending up with the wrong results from the refactored code.
+
+The advantages of the original VBA script is that it represents purpose and main idea of the code and there are several ways to approach as its the original code. the disadvantage of original script is there so many approaches, not sure which way would execute quicker and using a lot of memory, and may confuse the future readers. The advantages of refactored VBA script follows with the advantages and disadvantages of refactoring code mentioned in the paragraph above. The advantage of being less complex, using less memory, and increase efficiency. But disadvantages of refactored VBA script, it is time consuiming as there are several ways to approach the code.
 
 
 
